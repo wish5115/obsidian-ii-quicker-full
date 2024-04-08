@@ -1,6 +1,6 @@
 # Obsidian-II-Quicker
 
-[中文帮助](https://github.com/wish5115/obsidian-ii-quicker/blob/main/README-zh.md)
+[中文帮助](https://github.com/wish5115/obsidian-ii-quicker-full/blob/main/README-zh.md)
 
 # Introduction
 
@@ -29,7 +29,7 @@ The main features of this plugin are quick insertion of Markdown code, Zen mode,
 
 # Installation
 
-Download [Release obsidian-ii-quicker-1.1.6] (https://github.com/wish5115/obsidian-ii-quicker/releases/tag/1.1.6) here
+Download [Release obsidian-ii-quicker] (https://github.com/wish5115/obsidian-ii-quicker-full/releases/) here
 
 After downloading, unzip the obsidian-ii-quicker.zip, put it in the plugin directory, restart obsidian, and then don't forget to open the plugin in the settings.
 
@@ -49,33 +49,33 @@ Time and date formatting, use the same time formatting code as the official one,
 
 #### Quick Input Screenshot
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/list1.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/list1.png)
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/list2.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/list2.png)
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/image-modal.webp)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/image-modal.webp)
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/context-menu.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/context-menu.png)
 
 #### Zen Mode Screenshots
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/zen-light.png)
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/zen-dark.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/zen-light.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/zen-dark.png)
 
 #### Animation
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/iiplugin.gif)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/iiplugin.gif)
 
 
 # Issues and feedback
 
-You can go to [obsidian-ii-quicker/issues](https://github.com/wish5115/obsidian-ii-quicker/issues) for feedback if you have any questions.
+You can go to [obsidian-ii-quicker/issues](https://github.com/wish5115/obsidian-ii-quicker-full/issues) for feedback if you have any questions.
 
 # Development and Improvement
 
 ```
-git clone https://github.com/wish5115/obsidian-ii-quicker.git
-cd obsidian-ii-quicker
+git clone https://github.com/wish5115/obsidian-ii-quicker-full.git
+cd obsidian-ii-quicker-full
 npm install
 npm run dev
 ```
