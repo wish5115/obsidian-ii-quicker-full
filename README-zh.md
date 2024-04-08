@@ -26,7 +26,7 @@
 
 # 安装
 
-到这里下载 [Release obsidian-ii-quicker-1.1.6](https://github.com/wish5115/obsidian-ii-quicker/releases/tag/1.1.6)
+到这里下载 [Release obsidian-ii-quicker](https://github.com/wish5115/obsidian-ii-quicker-full/releases/)
 
 下载后把 obsidian-ii-quicker.zip 解压后，放到插件目录，重启 obsidian，然后别忘了到设置里开启插件即可。
 
@@ -47,33 +47,33 @@
 
 #### 快速输入截图
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/list1.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/list1.png)
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/list2.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/list2.png)
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/image-modal.webp)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/image-modal.webp)
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/context-menu.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/context-menu.png)
 
 #### 禅模式截图
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/zen-light.png)
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/zen-dark.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/zen-light.png)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/zen-dark.png)
 
 #### 动画展示
 
-![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker@main/assets/screenshots/iiplugin.gif)
+![](https://cdn.jsdelivr.net/gh/wish5115/obsidian-ii-quicker-full@main/assets/screenshots/iiplugin.gif)
 
 
 # 问题与反馈
 
-您有任何问题都可以到 [obsidian-ii-quicker/issues](https://github.com/wish5115/obsidian-ii-quicker/issues) 去反馈。
+您有任何问题都可以到 [obsidian-ii-quicker/issues](https://github.com/wish5115/obsidian-ii-quicker-full/issues) 去反馈。
 
 # 开发与改进
 
 ```
-git clone https://github.com/wish5115/obsidian-ii-quicker.git
-cd obsidian-ii-quicker
+git clone https://github.com/wish5115/obsidian-ii-quicker-full.git
+cd obsidian-ii-quicker-full
 npm install
 npm run dev
 ```
