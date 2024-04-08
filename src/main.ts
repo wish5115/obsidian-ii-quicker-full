@@ -41,9 +41,6 @@ export default class IIPlugin extends Plugin {
 			//状态栏显示当前文件大小
 			new DocSize(this).watchDocChange();
 
-			//注册颜色面板命令
-			this.registerColorPanelCommand();
-
 			//禅模式
 			this.registerZenModeCommand();
 
@@ -52,12 +49,6 @@ export default class IIPlugin extends Plugin {
 
 			//微禅模式
 			this.registerZenModeSlightCommand();
-
-			//预置样式
-			this.addPreStyle();
-
-			//执行代码片段
-			this.runCodeSnippets();
 
 			// 添加状态栏拖动代码
 			this.addStatusDragCode();
@@ -69,18 +60,28 @@ export default class IIPlugin extends Plugin {
 			this.registerFileContextMenu();
 		}
 
+		//注册颜色面板命令
+		this.registerColorPanelCommand();
+
+		//预置样式
+		this.addPreStyle();
+
+		//执行代码片段
+		this.runCodeSnippets();
+
 		// This adds a settings tab
 		this.addSettingTab(new IISettingTab(this.app, this));
 	}
 
 	onunload() {
+
+		//卸载样式
+		this.delPreStyle();
+
+		//卸载代码片段
+		this.delCodeSnippets();
+		
 		if (!this.isMobile) {
-			//卸载样式
-			this.delPreStyle();
-
-			//卸载代码片段
-			this.delCodeSnippets();
-
 			// 卸载状态栏拖动代码
 			this.delStatusDragCode();
 		}
@@ -234,7 +235,6 @@ export default class IIPlugin extends Plugin {
 
 	//预置样式
 	addPreStyle() {
-		if (this.isMobile) return;
 		const iiZen = document.head.querySelector("#ii-style");
 		if (!iiZen) {
 			document.head.appendChild(
@@ -257,7 +257,6 @@ export default class IIPlugin extends Plugin {
 
 	//运行代码片段
 	runCodeSnippets() {
-		if (this.isMobile) return;
 		const iiCode = document.body.querySelector("#ii-code");
 		if (!iiCode && this.settings.codeSnippets) {
 			document.body.appendChild(
